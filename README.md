@@ -12,7 +12,6 @@ Link->https://thalesianmendes.github.io/app-site-html-css/public/
 
 
 
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
