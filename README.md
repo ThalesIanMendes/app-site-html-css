@@ -1,3 +1,18 @@
+# app-site-html-css (interface inicial)
+ html/css
+
+Link->https://thalesianmendes.github.io/app-site-html-css/public/
+
+
+## 🚀 Projeto criado pare treinar:
+- ✔️ HTML.
+- ✔️ CSS.
+
+## 😃 Gostou? me siga no -> [Likedln](https://www.linkedin.com/in/thales-ian-carlesso-975014214/)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
