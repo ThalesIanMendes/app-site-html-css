@@ -1,166 +1,71 @@
-body {
-    min-width: 1000px;
-  }
-body, ul{
-    background-color: rgb(27, 27, 29);
+body{
+    margin: 0px;
     padding: 0px;
-    margin:auto;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background: rgb(138, 82, 170);
+    color: white;
+    font-family: sans-serif;
 }
-
-.header-site{
-    background-color: rgb(255, 255, 255);
-    height: 70px;
+.hea-der{
     display: flex;
-    padding: 1rem;
-    box-sizing: border-box;
     align-items: center;
-    justify-content: space-between;
-
+    
 }
-
-a{
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-family: sans-serif;
-    background-color:  rgb(255, 255, 255);
-    font-size: 15px;
+.pesquisar input{
+    margin-left: 40px;
+    background: rgba(255, 255, 255, 0.61);
+    border: 1px solid white;
+    width: 130px;
+    height: 30px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 0;
 }
-.h-logo{
-    padding-top: 3px;
+.logo{
+    margin-left: 120px;
 }
-.menu a{
-    display: block;
-    padding: 25px;
-}
-.menu{
+.menu ul{
     display: flex;
     list-style: none;
-    
+    gap: 20px;
 }
-a:hover{
-    background: rgb(179, 155, 155);
-}
-.busca {
-    text-align: center;
-    width: 68%;
-    float: right;
-    
-}
-.busca input {
-    background-image: url(imgs/icone-search.png);
-    background-repeat: no-repeat;
-    height: 10px;
-    padding: 4px;
-    width: 190px;
-    margin-top: 6px;
-    background-position: 96%;
-    border-radius: 8px;
-    float: right; 
-}
-.capa-titulo{
-    background: rgb(0, 0, 0);
-    margin-left:380px;
-    margin-right: 380px;
-    border-radius: 25px;
-    
-}
-.titulo h1{
-    
-    margin-top: 40px;
-    color:rgba(255, 255, 255, 0.733);
-    text-align: center;
-    font-family: sans-serif;
-    margin-bottom: 60px;
-    background: rgba(167, 0, 245, 0.678);
-    margin-left: 20px;
-    margin-right: 20px;
-    border-radius: 20px;
-    font-size: 40px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.404);
-    border-top: 1px solid rgba(255, 255, 255, 0.404);
-}
-
-.posiçoes{
-    display: flex;
-    color:rgb(255, 255, 255);
-    font-family: sans-serif;
-    margin-bottom: 0px;
-    justify-content: center; 
-    gap: 140px;
-    background: rgb(27, 27, 29);
-}
-.quadrados{ 
-    display: flex;
-    justify-content: center;   
-    background: rgb(27, 27, 29);
-    gap: 30px;
-    margin-bottom: 80px;
-    
-}
-.quadrados .quadrado-1{ 
-    margin: 4px;
-    list-style: none;
-    background: rgb(255, 255, 255);
-    height: 150px;
-    width: 150px;
-    border-radius: 150px;
-}
-.quadrados .quadrado-1 img{ 
-    margin-left: 45px;
-    margin-top: 50px;
-    height: 50px;
-    width: 50px;
-    
-}
-.quadrados .quadrado-2{ 
-    margin: 4px;
-    list-style: none;
-    background: rgb(255, 255, 255);
-    height: 150px;
-    width: 150px;
-    border-radius: 150px;
-}
-.quadrados .quadrado-2 img{ 
-    margin-left: 45px;
-    margin-top: 55px;
-    height: 50px;
-    width: 50px;
-    
-}
-.quadrados .quadrado-3{ 
-    margin: 4px;
-    list-style: none;
-    background: rgb(255, 255, 255);
-    height: 150px;
-    width: 150px;
-    border-radius: 150px;
-}
-.quadrados .quadrado-3 img{ 
-    margin-left: 50px;
-    margin-top: 55px;
-    height: 55px;
-    width: 50px;
-    
-}
-.quadro-noticias .titulo-noticia h1{
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 20px;
-    background: rgba(3, 3, 3, 0.747);
-}
-.quadro-noticias{
-    margin: auto;
-    margin-top: 50px;
-    width: 1200px;
-    height: 100px;
-    background: rgba(59, 57, 57, 0.719);
+.menu ul li:hover{
+    background: rgba(91, 32, 114, 0.74);
     border-radius: 5px;
-    color: rgb(255, 255, 255);
-    font-family: sans-serif;
-    font-size: 15px;
-    text-align: center;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+.bod-y{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sec-left h1{
+    font-size: 50px;
+}
+.sec-right{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    background: rgba(77, 43, 69, 0.185);
+    padding: 50px;
     border-radius: 20px;
-
+}
+.sec-right img{
+    width: 300px;
+    border-radius: 10px;
+}
+.btn{
+    width: 210px;
+    height: 50px;
+    background: rgb(34, 182, 120);
+    border: 1px solid rgb(82, 82, 82);
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    background: rgb(40, 196, 131) ;
 }
